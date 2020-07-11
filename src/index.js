@@ -8,7 +8,7 @@ import {searchRobots} from './reducers';
 import 'tachyons';
 import App from './containers/App.component';
 
-const store = createStore(searchRobots)
+const store = createStore(searchRobots);
 
 ReactDOM.render(
   <React.StrictMode>
