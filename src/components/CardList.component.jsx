@@ -15,7 +15,6 @@ import Card from './Card.component';
 //     )
 // };
 const CardList = ({ robots }) => {
-    
     return (
         <div>
             {robots.map((user, i) => {
