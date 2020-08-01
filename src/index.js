@@ -12,7 +12,7 @@ import App from './containers/App.component';
 
 const logger = createLogger();
 const rootReducer = combineReducers({ searchRobots, requestRobots })
-// const store = createStore(rootReducer, applyMiddleware(thunkMiddleware,logger));
+// const store = createStore(rootReducer, applyMiddleware(thunkMiddleware,logger)); // logger will leave reduc logging in prod
 const store = createStore(rootReducer, applyMiddleware(thunkMiddleware));
 
 ReactDOM.render(
