@@ -2,6 +2,10 @@
   "homepage": "https://JonFromNYC.github.io/react-redux-webpack",
   "name": "cwd",
   "version": "0.1.0",
+  "babel": {
+    "presets": [],
+    "plugins": []
+  },
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -41,6 +45,13 @@
     ]
   },
   "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/preset-react": "^7.12.13",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2"
   }
